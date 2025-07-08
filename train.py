@@ -22,7 +22,7 @@ X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
 # Step 5: Random Forest model
-rf = RandomForestClassifier(n_estimators=200, random_state=42)
+rf = RandomForestClassifier(n_estimators=300, random_state=42)
 rf.fit(X_train_scaled, y_train)
 
 # Step 6: Predictions
