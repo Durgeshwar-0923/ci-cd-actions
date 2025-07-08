@@ -3,7 +3,7 @@ name: CI - Run train.py on Push
 on:
   push:
     branches:
-      - '**'
+      - dev
 
 jobs:
   run-train-script:
