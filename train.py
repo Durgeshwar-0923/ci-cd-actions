@@ -9,6 +9,8 @@ from sklearn.preprocessing import StandardScaler
 # Step 1: Load dataset
 df = pd.read_csv("diabetes.csv")
 
+print("Durgesh-Piece of hearth")
+
 # Step 2: Features and target
 X = df.drop("Outcome", axis=1)
 y = df["Outcome"]
